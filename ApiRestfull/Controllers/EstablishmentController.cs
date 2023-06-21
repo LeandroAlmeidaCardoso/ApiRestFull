@@ -11,7 +11,7 @@ namespace ApiRestfull.Controllers
         {
             People people = new People();
 
-            return Ok(new { people.Geolocalizacao, people.PeopleId });
+            return Ok(new { people.Geolocalizacao, people.PeopleId});
         }
     }
 }
